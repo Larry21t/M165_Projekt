@@ -1,0 +1,10 @@
+{
+    "Rezeptname": "Schokoladenkuchen",
+    "Rezeptkategorie": "Kuchen",
+    "Zutaten": ["Mehl, Zucker, Eier, Schokolade"],
+    "Anleitung": "1. Mehl, Zucker und Eier mischen, 2. Schokolade schmelzen",
+    "Bewertung": 10,
+    "Kommentar": ["Cool"],
+    "Herkunftsland": "Frankreich",
+    "Schwierigkeit": 1
+}
