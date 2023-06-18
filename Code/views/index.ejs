@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezepte</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100px;
+            max-height: 100px;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 5px;
+        }
+
+        .search-button {
+            margin-left: 5px;
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="search-container" action="/search" method="POST">
+        <input class="search-input" type="text" name="searchTerm" placeholder="Zutaten suchen">
+        <button class="search-button" type="submit">Suchen</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rezeptname</th>
+                <th>Rezeptkategorie</th>
+                <th>Zutaten</th>
+                <th>Anleitung</th>
+                <th>Bild</th>
+                <th>Bewertung</th>
+                <th>Kommentar</th>
+                <th>Herkunftsland</th>
+                <th>Schwierigkeit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% recipes.forEach(function(recipe) { %>
+                <tr>
+                    <td>
+                        <%= recipe.Rezeptname %>
+                    </td>
+                    <td>
+                        <%= recipe.Rezeptkategorie %>
+                    </td>
+                    <td>
+                        <%= recipe.Zutaten %>
+                    </td>
+                    <td>
+                        <%= recipe.Anleitung %>
+                    </td>
+                    <td>
+                        <% if (recipe.Bild) { %>
+                            <img src="<%= recipe.Bild %>" alt="Bild">
+                        <% } else { %>
+                            <span>-</span>
+                        <% } %>
+                    </td>
+                    <td>
+                        <%= recipe.Bewertung %>
+                    </td>
+                    <td>
+                        <%= recipe.Kommentar %>
+                    </td>
+                    <td>
+                        <%= recipe.Herkunftsland %>
+                    </td>
+                    <td>
+                        <%= recipe.Schwierigkeit %>
+                    </td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+</body>
+
+</html>
