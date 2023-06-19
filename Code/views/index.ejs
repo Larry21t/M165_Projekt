@@ -85,8 +85,8 @@
                         <%= recipe.Anleitung %>
                     </td>
                     <td>
-                        <% if (recipe.Bild) { %>
-                            <img src="<%= recipe.Bild %>" alt="Bild">
+                        <% if (recipe._attachement) { %>
+                            <img src="<%= recipe._attachement %>" alt="Bild">
                         <% } else { %>
                             <span>-</span>
                         <% } %>

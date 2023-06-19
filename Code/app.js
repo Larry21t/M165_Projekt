@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const NodeCouchdb = require('nano')('http://admin:admin@127.0.0.1:5984');
+const NodeCouchdb = require('nano')('http://sysadm:sysadm@127.0.0.1:5984');
 
 const couch = NodeCouchdb.db.use('rezepte');
 
