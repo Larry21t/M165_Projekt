@@ -1,11 +1,14 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
-const NodeCouchdb = require('nano')('http://sysadm:sysadm@127.0.0.1:5984');
+const NodeCouchdb = require('nano')('http://admin:admin@127.0.0.1:5984');
 
 const couch = NodeCouchdb.db.use('rezepte');
 
 const app = express();
+
+app.use(express.static('images'));
+
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set('views', path.join(__dirname, 'views'));
@@ -18,8 +21,8 @@ app.get('/', function (req, res) {
             return;
         }
         const recipes = body.rows.map(row => row.doc);
-        console.log(recipes)
-        res.render('index', { recipes });
+        console.log(recipes);
+        res.render('index', { recipes});
     });
 });
 
@@ -43,4 +46,5 @@ app.post('/search', function (req, res) {
 app.listen(3000, function () {
     console.log('Server is started on Port 3000');
 });
+
 

@@ -86,10 +86,13 @@
                     </td>
                     <td>
                         <% if (recipe._attachement) { %>
-                            <img src="<%= recipe._attachement %>" alt="Bild">
                         <% } else { %>
-                            <span>-</span>
-                        <% } %>
+                            <% if (recipe._attachments != null) { %>
+                                <% var bild = JSON.stringify(recipe._attachments)%>
+                                <% var bildname = bild.substring(2, bild.indexOf(":", 2)-1) %>
+                                <img src="http://localhost:3000/<%=bildname%>" alt="Bild" width="200"/>
+                            <% } %>
+                        <% } %>                      
                     </td>
                     <td>
                         <%= recipe.Bewertung %>
@@ -108,5 +111,4 @@
         </tbody>
     </table>
 </body>
-
 </html>
