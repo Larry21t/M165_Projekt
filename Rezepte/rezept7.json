@@ -1,10 +1,25 @@
 {
+    "_id": "1f36ceeb2e146310e8dea3676601dd8f",
+    "_rev": "3-64195d80a76b15561be08e3824f4e5be",
     "Rezeptname": "Schokoladenkuchen",
     "Rezeptkategorie": "Kuchen",
-    "Zutaten": ["Mehl, Zucker, Eier, Schokolade"],
+    "Zutaten": [
+      "Mehl, Zucker, Eier, Schokolade"
+    ],
     "Anleitung": "1. Mehl, Zucker und Eier mischen, 2. Schokolade schmelzen",
     "Bewertung": 10,
-    "Kommentar": ["Cool"],
+    "Kommentar": [
+      "Cool"
+    ],
     "Herkunftsland": "Frankreich",
-    "Schwierigkeit": 1
-}
+    "Schwierigkeit": 1,
+    "_attachments": {
+      "schokoladenkuchen_rezept7.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-ZCrBnsb9yH8oOUqIXM3Wbg==",
+        "length": 136626,
+        "stub": true
+      }
+    }
+  }

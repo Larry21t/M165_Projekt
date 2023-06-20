@@ -1,7 +1,23 @@
 {
+    "_id": "1f36ceeb2e146310e8dea3676601bf52",
+    "_rev": "3-ef526a0ade9f4c0f7c19ee05baa97d31",
     "Rezeptname": "Rösti mit Speck",
     "Rezeptkategorie": "Gratins",
-    "Zutaten": ["Kartoffeln, Zwiebeln, Speckwürfeli, Salz"],
+    "Zutaten": [
+      "Kartoffeln, Zwiebeln, Speckwürfeli, Salz"
+    ],
     "Anleitung": "1. Kartoffeln waschen und weichkochen, 2. Kartoffeln raffeln, 3. Kartoffeln, Zwiebeln und Speckwürfeli anbraten",
-    "Kommentar": ["Mein Lieblingsessen", "Sehr gut"]
-}
+    "Kommentar": [
+      "Mein Lieblingsessen",
+      "Sehr gut"
+    ],
+    "_attachments": {
+      "roestiMitSpeck_rezept6.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-1vIEzMAiIJEYW/iT3ENprQ==",
+        "length": 648349,
+        "stub": true
+      }
+    }
+  }

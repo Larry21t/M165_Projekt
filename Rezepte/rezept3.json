@@ -1,11 +1,22 @@
 {
-    "Rezeptname": "Omelette mit Ghackets",
-    "Rezeptkategorie": "Omeletten",
-    "Zutaten": [
-      "Mehl, Milch, Eier, Hackfleisch"
-    ],
-    "Anleitung": "1. Mehl, Milch und Eier mischen, 2. Hackfleisch anbraten, 3. Omelettenteig in eine Bratpfanne geben",
-    "Kommentar": [
-      "Sehr lecker"
-    ]
+  "_id": "1f36ceeb2e146310e8dea36766015cfe",
+  "_rev": "3-280243c0c71af2693ed41f7918534f04",
+  "Rezeptname": "Omelette mit Ghackets",
+  "Rezeptkategorie": "Omeletten",
+  "Zutaten": [
+    "Mehl, Milch, Eier, Hackfleisch"
+  ],
+  "Anleitung": "1. Mehl, Milch und Eier mischen, 2. Hackfleisch anbraten, 3. Omelettenteig in eine Bratpfanne geben",
+  "Kommentar": [
+    "Sehr lecker"
+  ],
+  "_attachments": {
+    "omeletteMitHackfleisch_rezept3.jpg": {
+      "content_type": "image/jpeg",
+      "revpos": 2,
+      "digest": "md5-wegeCQ4a0ZEm51kU8+Henw==",
+      "length": 33402,
+      "stub": true
+    }
   }
+}

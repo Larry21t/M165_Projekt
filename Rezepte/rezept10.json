@@ -1,7 +1,20 @@
 {
+    "_id": "1f36ceeb2e146310e8dea367660237a0",
+    "_rev": "3-b80586f8fe7d8700ab0d299f98059e8a",
     "Rezeptname": "Schinkengipfeli",
     "Rezeptkategorie": "Vorspeisen",
-    "Zutaten": ["Blätterteig, Schinken, Crème fraîche"],
+    "Zutaten": [
+      "Blätterteig, Schinken, Crème fraîche"
+    ],
     "Anleitung": "1. Blätterteig in die Gipfeliform legen und ausstechen, 2. Schinken und Crème fraîche mischen und auf dem Blätterteig verteilen, 3. Blätterteig zu Gipfeli rollen",
-    "Bewertung": 6
-}
+    "Bewertung": 6,
+    "_attachments": {
+      "schinkengipfeli_rezept10.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-HhZsXOSO2A4QuawJtwlO9Q==",
+        "length": 43979,
+        "stub": true
+      }
+    }
+  }

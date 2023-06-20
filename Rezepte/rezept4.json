@@ -1,7 +1,22 @@
 {
+    "_id": "1f36ceeb2e146310e8dea367660189f1",
+    "_rev": "4-42649274ff97d993a606957288c5008f",
     "Rezeptname": "Riz Casimir",
     "Rezeptkategorie": "Reisgerichte",
-    "Zutaten": ["Reis, Poulet, Fruchtsalat, Currygewürz"],
+    "Zutaten": [
+      "Reis, Poulet, Fruchtsalat, Currygewürz"
+    ],
     "Anleitung": "1. Poulet braten, 2. Reis zum Poulet dazugeben, 3. Fruchtsalat und Currygewürz in die Pfanne geben",
-    "Kommentar": ["Empfehlenswert"]
-}
+    "Kommentar": [
+      "Empfehlenswert"
+    ],
+    "_attachments": {
+      "rizCasimir_rezept4.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-nlXhudbtwWk5yT92Rqm4Og==",
+        "length": 255793,
+        "stub": true
+      }
+    }
+  }

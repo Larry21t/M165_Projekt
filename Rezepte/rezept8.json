@@ -1,10 +1,25 @@
 {
+    "_id": "1f36ceeb2e146310e8dea3676601f80e",
+    "_rev": "3-2501424220b53f152764e9d6fdddb368",
     "Rezeptname": "Racletteburger",
     "Rezeptkategorie": "Burger",
-    "Zutaten": ["Hackfleisch, Salat, Brot, Ketchup, Raclettekäse"],
+    "Zutaten": [
+      "Hackfleisch, Salat, Brot, Ketchup, Raclettekäse"
+    ],
     "Anleitung": "1. Hackfleisch anbraten",
     "Bewertung": 6,
-    "Kommentar": ["Speziell"],
+    "Kommentar": [
+      "Speziell"
+    ],
     "Herkunftsland": "Schweiz",
-    "Schwierigkeit": 3
-}
+    "Schwierigkeit": 3,
+    "_attachments": {
+      "racletteBurger_rezept8.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-UtrwQlGR0LlwrfuaR7CLAA==",
+        "length": 541083,
+        "stub": true
+      }
+    }
+  }

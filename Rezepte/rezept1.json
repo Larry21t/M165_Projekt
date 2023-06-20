@@ -1,8 +1,19 @@
 {
-    "Rezeptname": "Lasagne",
-    "Rezeptkategorie": "Gratins",
-    "Zutaten": [
-      "Hackfleisch, Karotten, Lasagneblätter, Käse, Tomatenpüree"
-    ],
-    "Anleitung": "1. Hackfleisch anbraten, 2. Karotten und Tomatenpüree dazugeben"
+  "_id": "1f36ceeb2e146310e8dea3676600f42d",
+  "_rev": "5-087f9d0b3e62bc75794e601707ed41ee",
+  "Rezeptname": "Lasagne",
+  "Rezeptkategorie": "Gratins",
+  "Zutaten": [
+    "Hackfleisch, Karotten, Lasagneblätter, Käse, Tomatenpüree"
+  ],
+  "Anleitung": "1. Hackfleisch anbraten, 2. Karotten und Tomatenpüree dazugeben",
+  "_attachments": {
+    "lasagne_rezept1.jpg": {
+      "content_type": "image/jpeg",
+      "revpos": 2,
+      "digest": "md5-h07yKjZm6WJzeH/DNHU6xw==",
+      "length": 445632,
+      "stub": true
+    }
+  }
 }

@@ -1,7 +1,24 @@
 {
+    "_id": "1f36ceeb2e146310e8dea3676601a9da",
+    "_rev": "3-bccbf25d8ce0c283cdea3006cd1abdef",
     "Rezeptname": "Caesar Salad",
     "Rezeptkategorie": "Salate",
-    "Zutaten": ["Grüner Salat, Toastbrot, Parmesan"],
+    "Zutaten": [
+      "Grüner Salat, Toastbrot, Parmesan"
+    ],
     "Anleitung": "1. Salat waschen und schneiden, 2. Toastbrot anbraten",
-    "Kommentar": ["Mmmhhhh", "Das Toastbrot ist mir verbrannt", "Muss man unbedingt probieren"]
-}
+    "Kommentar": [
+      "Mmmhhhh",
+      "Das Toastbrot ist mir verbrannt",
+      "Muss man unbedingt probieren"
+    ],
+    "_attachments": {
+      "caesarSalad_rezept5.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-csei8S8KPCCnlJ63I+kOGA==",
+        "length": 111486,
+        "stub": true
+      }
+    }
+  }

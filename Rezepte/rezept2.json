@@ -1,6 +1,19 @@
 {
+    "_id": "1f36ceeb2e146310e8dea367660139af",
+    "_rev": "3-73ed38f6e649fbef98db0a1d00f310d4",
     "Rezeptname": "Rahmschnitzel",
     "Rezeptkategorie": "Grill",
-    "Zutaten": ["Schnitzel, Rahm, Pilze, Lauch, Speckwürfeli"],
-    "Anleitung": "1. Schnitzel anbraten, 2. Rahm und Pilze erhitzen"
-}
+    "Zutaten": [
+      "Schnitzel, Rahm, Pilze, Lauch, Speckwürfeli"
+    ],
+    "Anleitung": "1. Schnitzel anbraten, 2. Rahm und Pilze erhitzen",
+    "_attachments": {
+      "rahmschnitzel_rezept2.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-vcY1q+0R7q1QD+j9u1QCeg==",
+        "length": 225304,
+        "stub": true
+      }
+    }
+  }

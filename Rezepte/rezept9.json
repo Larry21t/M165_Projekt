@@ -1,7 +1,20 @@
 {
+    "_id": "1f36ceeb2e146310e8dea36766021094",
+    "_rev": "3-6892ffe734ade92a71f67e3c69fbcc7e",
     "Rezeptname": "Club-Sandwich",
     "Rezeptkategorie": "Sandwiches",
-    "Zutaten": ["Speck, Toastbrot, Käse, Essiggurken, Zwiebeln, Butter"],
+    "Zutaten": [
+      "Speck, Toastbrot, Käse, Essiggurken, Zwiebeln, Butter"
+    ],
     "Anleitung": "1. Speck anbraten, 2. Toastbrot toasten und mit Butter bestreichen, 3. Zutaten zwischen die Toastbrote legen",
-    "Bewertung": 8
-}
+    "Bewertung": 8,
+    "_attachments": {
+      "clubSandwich_rezept9.jpg": {
+        "content_type": "image/jpeg",
+        "revpos": 2,
+        "digest": "md5-tYunh4GAPJ/lx4hgPROIsg==",
+        "length": 584749,
+        "stub": true
+      }
+    }
+  }
